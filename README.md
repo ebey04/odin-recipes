@@ -5,7 +5,7 @@ This project focuses on practicing basic HTML structure and building multiple pa
 
 
 ## 🚀 Live Demo Link
-You can view the project here: [Odin Recipes on GitHub Pages] ()
+You can view the project here: [Odin Recipes on GitHub Pages] (https://ebey04.github.io/odin-recipes/)
 
 ## 🧠 Lessons Learned 
 - Multi-page project showcasing proper use of the `<a>` element, `<img>` element and semantic structure.
