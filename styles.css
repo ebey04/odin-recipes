@@ -1,4 +1,9 @@
 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 header {
     display: flex;
@@ -22,4 +27,27 @@ h1 {
     background-color: #D0D9CD ;
     width: 75%;
     margin: 0 10em;
+}
+
+article{
+    display: block;
+    width: 100%;
+}
+
+.img{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.recipe-img{
+    margin: 1em;
+    height:30%;
+    width: 30%
+}
+
+#recipe-description h2, #recipe-ingredients h2, #recipe-steps h2 {
+    font-family: Grenze Gotisch, sans-serif;
+    font-size: 2.5rem;
+    margin: 1rem;
 }
