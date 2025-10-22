@@ -13,16 +13,15 @@ header {
 h1 {
     font-size: 5rem;
     font-family: Grenze Gotisch, sans-serif;
-    color: #296B55;
 }
 
 #navbar{
     display: flex;
     justify-content: center;
-    ;
     gap: 5rem;
     list-style-type: none;
-    font-size: 1.1rem;
+    font-size: 1.2rem;
+    font-weight: bold;
     font-family: sans-serif;
     background-color: #D0D9CD ;
     width: 75%;
@@ -32,6 +31,7 @@ h1 {
 article{
     display: block;
     width: 100%;
+    margin-left: 2rem;
 }
 
 .img{
@@ -43,11 +43,33 @@ article{
 .recipe-img{
     margin: 1em;
     height:30%;
-    width: 30%
+    width: 30%;
 }
 
 #recipe-description h2, #recipe-ingredients h2, #recipe-steps h2 {
     font-family: Grenze Gotisch, sans-serif;
     font-size: 2.5rem;
-    margin: 1rem;
+}
+
+#recipe-description{
+    margin-bottom: 3rem;
+    padding: 1rem;
+    font-size: large;
+}
+
+#recipe-ingredients{
+    border: 2px solid #296B55;
+    width: 40%;
+    padding: 1rem;
+    padding-bottom: 2rem;
+    margin-bottom: 3rem;
+}
+
+ul li, ol li{
+    margin-bottom: .75rem;
+    margin-left: 2rem;
+}
+
+ul{
+    list-style-type: none;
 }
