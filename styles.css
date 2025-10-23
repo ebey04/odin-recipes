@@ -34,7 +34,7 @@ hr{
     border-radius: .5em;
     position: fixed;
     bottom: 1rem;
-    right: 1rem;
+    right: clamp(0.5rem, 2vw, 1rem);
     z-index: 1000;
     background-color: #C67402;
     color: white;
@@ -160,4 +160,37 @@ ul{
     margin: 1rem;
     box-shadow: 3px 3px 5px #296B55;
     background-color: #D0D9CD;
+}
+
+/** MEDIA QUERIES **/
+
+@media (max-width: 600px) {
+  .nav-btn {
+    right: 3.5rem;
+  }
+    #recipe-ingredients h2 {
+    font-size: 1.75rem;
+  }
+
+  ol{
+    margin-right: 5rem;
+  }
+
+  #buttons{
+    margin-left: 1rem;
+    margin-right: 10rem;
+  }
+
+  h1{
+    font-size: 3rem;
+  }
+
+  #recipe-description{
+    margin-right: 1.5rem;
+  }
+}
+@media (min-width: 601px) {
+  .nav-btn {
+    right: 1rem;
+  }
 }
