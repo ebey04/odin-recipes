@@ -17,16 +17,41 @@ h1 {
     margin-bottom: 1rem;
 }
 
-#navbar{
-    display: flex;
-    justify-content: center;
-    gap: 5rem;
-    list-style-type: none;
+hr{
+    align-items: center;
+    width: 80%;
+     border: 0;
+     border-top: 1.75px solid #C67402;
+    margin: .5em auto 0;
+}
+
+.nav-btn{
     font-size: 1.2rem;
     font-weight: bold;
-    font-family: sans-serif;
-    background-color: #D0D9CD ;
-    margin: 0 10em;
+    font-family: serif;
+    padding: 1rem;
+    border: 1px solid #074F07;
+    border-radius: .5em;
+    position: fixed;
+    bottom: 1rem;
+    right: 1rem;
+    z-index: 1000;
+    background-color: #C67402;
+    color: white;
+    box-shadow: 1px 5px 5px #296B55;
+}
+
+.nav-btn:hover{
+    background-color: #296B55;
+    outline: 2px solid #074F07;
+    outline-offset: 4px;
+}
+
+.nav-btn:focus{
+    background-color: #F4E4C8;
+    color: #074F07;
+    outline: 2px solid #074F07;
+    outline-offset: 4px;
 }
 
 .card-stack {
