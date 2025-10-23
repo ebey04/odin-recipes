@@ -14,6 +14,7 @@ header {
 h1 {
     font-size: 5rem;
     font-family: Grenze Gotisch, sans-serif;
+    margin-bottom: 1rem;
 }
 
 #navbar{
@@ -28,29 +29,26 @@ h1 {
     margin: 0 10em;
 }
 
-.card-stack{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    margin-bottom: 3rem;
+.card-stack {
+  display: flex;
+  flex-wrap: wrap; /* allows wrapping on smaller screens */
+  justify-content: center; /* centers all the cards */
+  gap: 2rem; /* adds space between them */
 }
 
 .card {
-  display: flex;
-  flex-direction: column;   
-  align-items: center;      
-  width: min(90%, 500px);
+  flex: 1 1 300px; /* base width 300px, can grow/shrink */
+  max-width: 400px; /* prevents huge scaling on wide screens */
   background: #D0D9CD;
   padding: 20px;
-  margin: 100px auto 0;     /* centers the card */
   text-align: center;
   font-size: 16px;
 }
 
 .card-img {
   width: 100%;
-  max-width: 100%;
-  height: auto;
+  height: 300px;
+  border-radius: 4px;;
   display: block;
   object-fit: cover;
   margin-bottom: 1em;
@@ -81,7 +79,7 @@ article{
 }
 
 #pumpkin{
-    width: 45%;
+    width: 30%;
 }
 
 #peanut{
