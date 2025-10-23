@@ -37,14 +37,24 @@ article{
 .img{
     display: flex;
     justify-content: center;
-    width: 100%;
+    max-width: 100%;
+    height: auto;
+    margin: 1em auto;
 }
 
-.recipe-img{
-    margin: 1em;
-    height:30%;
+#pumpkin{
+    width: 45%;
+}
+
+#peanut{
     width: 30%;
 }
+
+#pizza{
+    width: 30%;
+    
+}
+
 
 #recipe-description h2, #recipe-ingredients h2, #recipe-steps h2 {
     font-family: Grenze Gotisch, sans-serif;
