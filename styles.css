@@ -5,6 +5,7 @@
     box-sizing: border-box;
 }
 
+
 header {
     display: flex;
     justify-content: center;
@@ -24,9 +25,46 @@ h1 {
     font-weight: bold;
     font-family: sans-serif;
     background-color: #D0D9CD ;
-    width: 75%;
     margin: 0 10em;
 }
+
+.card-stack{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-bottom: 3rem;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;   
+  align-items: center;      
+  width: min(90%, 500px);
+  background: #D0D9CD;
+  padding: 20px;
+  margin: 100px auto 0;     /* centers the card */
+  text-align: center;
+  font-size: 16px;
+}
+
+.card-img {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+  margin-bottom: 1em;
+}
+
+.card > p{
+    margin: 0;
+}
+
+.recipe-name{
+    font-size: 2rem;
+    font-family: sans-serif;
+}
+
 
 article{
     display: block;
@@ -39,7 +77,7 @@ article{
     justify-content: center;
     max-width: 100%;
     height: auto;
-    margin: 1em auto;
+    margin-top: 1em;
 }
 
 #pumpkin{
@@ -52,9 +90,7 @@ article{
 
 #pizza{
     width: 30%;
-    
 }
-
 
 #recipe-description h2, #recipe-ingredients h2, #recipe-steps h2 {
     font-family: Grenze Gotisch, sans-serif;
@@ -62,7 +98,7 @@ article{
 }
 
 #recipe-description{
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
     padding: 1rem;
     font-size: large;
 }
@@ -72,7 +108,8 @@ article{
     width: 40%;
     padding: 1rem;
     padding-bottom: 2rem;
-    margin-bottom: 3rem;
+    margin-bottom: 1rem;
+    box-shadow: 3px 3px 5px #296B55;
 }
 
 ul li, ol li{
@@ -85,7 +122,7 @@ ul{
 }
 
 #buttons{
-    display: flex;
+    margin-left: 10em;
 }
 
 #save-btn, #print-btn{
