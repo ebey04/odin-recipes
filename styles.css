@@ -34,6 +34,7 @@ h1 {
   flex-wrap: wrap; /* allows wrapping on smaller screens */
   justify-content: center; /* centers all the cards */
   gap: 2rem; /* adds space between them */
+  padding-inline: 1rem; /* adds margin between cards & viewport on mobile */
 }
 
 .card {
